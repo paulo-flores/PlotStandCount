@@ -179,8 +179,8 @@ For each row:
 
 > Place images in `docs/images/` and reference them below.
 
-[![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)]
-[![Plot Preview](./plot-stand-counter/docs/images/FourRowPlotPreviewZoom.jpg)]
+[![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)](https://github.com/paulo-flores/PlotStandCount/tree/main/plot-stand-counter/docs/images)
+[![Plot Preview](./plot-stand-counter/docs/images/FourRowPlotPreviewZoom.jpg)](https://github.com/paulo-flores/PlotStandCount/tree/main/plot-stand-counter/docs/images)
 
 ---
 
