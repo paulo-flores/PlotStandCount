@@ -181,7 +181,7 @@ For each row:
 
 ```markdown
 [![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)]
-![Plot Preview](./docs/images/FourRowPlotPreviewZoom.jpg)
+[![Plot Preview](./plot-stand-counter/docs/images/FourRowPlotPreviewZoom.jpg)]
 ```
 
 ---
