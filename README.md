@@ -179,10 +179,8 @@ For each row:
 
 > Place images in `docs/images/` and reference them below.
 
-```markdown
 [![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)]
 [![Plot Preview](./plot-stand-counter/docs/images/FourRowPlotPreviewZoom.jpg)]
-```
 
 ---
 
