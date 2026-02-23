@@ -180,8 +180,8 @@ For each row:
 > Place images in `docs/images/` and reference them below.
 
 ```markdown
-![Overview](docs/images/ToolSetupOverview.jpg)
-![Plot Preview](docs/images/FourRowPlotPreviewZoom.jpg)
+![Overview](./docs/images/ToolSetupOverview.jpg)
+![Plot Preview](./docs/images/FourRowPlotPreviewZoom.jpg)
 ```
 
 ---
