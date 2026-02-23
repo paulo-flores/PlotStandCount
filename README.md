@@ -180,7 +180,7 @@ For each row:
 > Place images in `docs/images/` and reference them below.
 
 ```markdown
-[![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)](https://github.com/paulo-flores/PlotStandCount/tree/main/plot-stand-counter/docs/images)
+[![Overview](./plot-stand-counter/docs/images/ToolSetupOverview.jpg)]
 ![Plot Preview](./docs/images/FourRowPlotPreviewZoom.jpg)
 ```
 
