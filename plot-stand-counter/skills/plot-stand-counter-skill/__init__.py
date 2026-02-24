@@ -14,8 +14,9 @@ Key Features:
 - Cluster/double detection heuristic
 - Comprehensive metrics (plants/ft, plants/acre)
 - Annotated image outputs
+- Automatic row detection (no manual coordinates needed!)
 
-Example:
+Manual Mode Example:
     >>> from plot_stand_counter import PlotStandCounter
     >>> counter = PlotStandCounter()
     >>> result = counter.process_plot(
@@ -23,12 +24,22 @@ Example:
     ...     row_endpoints=[(100, 200), (300, 400), (100, 450), (300, 650)],
     ...     output_dir="./output"
     ... )
+
+Automatic Mode Example:
+    >>> from plot_stand_counter import AutomaticStandCounter
+    >>> auto_counter = AutomaticStandCounter()
+    >>> result = auto_counter.auto_count(
+    ...     tif_path="orthomosaic.tif",
+    ...     output_dir="./output",
+    ...     n_rows=4
+    ... )
 """
 
 __version__ = "1.0.0"
 __author__ = "Boreal Bytes"
 
 from .scripts.skill import PlotStandCounter, PlotResult, RowResult
+from .scripts.auto_counter import AutomaticStandCounter, DetectedRow, PlotBoundary
 from .scripts.utils import (
     exg_index,
     circularity,
@@ -45,8 +56,11 @@ from .scripts.utils import (
 
 __all__ = [
     "PlotStandCounter",
+    "AutomaticStandCounter",
     "PlotResult",
     "RowResult",
+    "DetectedRow",
+    "PlotBoundary",
     "exg_index",
     "circularity",
     "build_rect_from_line",
